@@ -1,0 +1,44 @@
+.senderdiv{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 70vh;
+    padding: 10vh;
+}
+
+#fab{
+    border: 2px solid #3498db ;
+    background-color: white;
+    font-weight: bolder;
+    color: #3498db;
+    margin: 15px;
+}
+
+#fab:hover{
+    background-color: #3498db;
+    color: white;
+    font-weight: bolder;
+}
+
+.input1{
+    outline: none;
+    border: none;
+    /* border-bottom: 2px solid #3498db; */
+    border-bottom: 2px solid black;
+}
+
+.input1:focus{
+    border-bottom: 2.5px solid #3498db;
+    
+}
+
+
+.senderh1{
+    /* color: #3498db; */
+    font-weight: 800;
+    position: relative;
+    top: 30px;
+}
+

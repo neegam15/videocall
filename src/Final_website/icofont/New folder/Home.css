@@ -1,0 +1,54 @@
+*{
+    font-family: 'Roboto', sans-serif ;
+}
+
+#header{
+    width: 100%;
+    height: 80vh;
+    margin-top: 70px;
+}
+
+#header h1{
+    margin:0 0 10px 0;
+    font-size:48px;
+    font-weight: 700;
+    color: black;
+}
+
+#header .brand-name{
+    color: #3498db;
+}
+
+.btn-get-started{
+    display: inline-block;
+    border: 2px solid #3498db !important;
+    border-radius: 50px !important;
+    padding: 10px 25px;
+    font-size:large;
+    text-decoration: none;
+    color:#3498db;
+
+    transition:0.5s;
+}
+
+.btn-get-started:hover{
+    background-color: #3498db;
+    color: white;
+}
+
+.header-img{
+    text-align: center;
+}
+
+.animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
